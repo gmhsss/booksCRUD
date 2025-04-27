@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #ffe4e1, #e0ffff);
+  min-height: 100vh;
+}
+
+.App {
+  text-align: center;
+  padding: 2rem;
+}
+
+h1 {
+  color: #ff69b4;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.formulario input {
+  margin: 0.5rem;
+  padding: 0.7rem 1rem;
+  border: 2px solid #ffb6c1;
+  border-radius: 10px;
+  font-size: 1rem;
+  outline: none;
+  transition: 0.3s;
+}
+
+.formulario input:focus {
+  border-color: #ff69b4;
+  background-color: #fff0f5;
+}
+
+button {
+  margin: 0.3rem;
+  padding: 0.6rem 1.2rem;
+  cursor: pointer;
+  background-color: #ffb6c1;
+  border: none;
+  border-radius: 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #ff69b4;
+  transform: scale(1.05);
+}
+
+.lista {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.livro-item {
+  background-color: #ffffff;
+  border: 2px solid #ffb6c1;
+  margin: 1rem;
+  padding: 1.5rem;
+  border-radius: 15px;
+  width: 250px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.livro-item:hover {
+  transform: translateY(-5px);
+}
+
+.livro-item h3 {
+  margin-bottom: 0.5rem;
+  color: #ff69b4;
+}
+
+.livro-item p {
+  margin: 0.2rem 0;
+  color: #555;
+}
+
+footer {
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  color: #888;
+}
